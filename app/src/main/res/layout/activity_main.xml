@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.android.xiyounews.PullListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:id="@+id/newsList"
+        android:dividerHeight="0.5dp"
+        android:divider="@color/color_9"
+        android:background="@color/color_f">
+
+    </com.example.android.xiyounews.PullListView>
+
+</LinearLayout>
